@@ -1,6 +1,6 @@
 body{
 	background-color: #00002e;
-	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; ;
+	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; 
 
 	
 }
@@ -24,12 +24,12 @@ figcaption{
 	color:#fff;
 	display: flex;
 	align-items: stretch;
-	justify-content:space-between;
 	margin: auto;	
 	margin-left: 20%;
 	margin-right: 20%;
 	width: 858px;
-	flex-wrap:nowrap;
+	justify-content: space-evenly;
+	
 	
 	
 }
@@ -45,44 +45,55 @@ h2{
 }
 
 li{
-	width: 186px;
+	width: fit-content;
 	justify-content:space-between;	
 	display: inline-block;
 	text-align: center;
-	margin: auto;
-	align-items: stretch;
-	margin-left: 20px;
+	margin: auto;	
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 0 5px;
+	
+	
 
 }
 
 li>figure>img{
-	width: 150px;
-	margin: auto;
+	width: 100%;
+	margin:  auto;
 	cursor: pointer;
+	padding-left: 20px;
 	
 
 }
-li>figure>img:hover{
+li>figure{
+	width: 186px;
+	height: 186px;
+}
+/*li>figure>img:hover{
 	border: 1px solid black;
 	width: 149px;
 
-}
+}*/
 h3{
 	margin-top: 20px;
+	padding-left: 20px;
 }
 
 .addPerfil>figure>img{
-	width: 90px;
-	border-radius: 50%;	
-	margin-bottom: 25px;
+	width: 90px;		
+	margin-top: 50px;
+	
+	
+
 
 	
 }
-.addPerfil>figure>img:hover{
+/*.addPerfil>figure>img:hover{
 
 	border: 1px solid black;
 	width: 90px;
-}
+}*/
 
 footer{
 	width: 858px;
@@ -107,28 +118,9 @@ button{
 }
 
 @media (max-width: 700px) { 
-	header.topo {
-        width: auto;
-    }
-    header.topo figure {
-        width: 250px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        justify-content: center;
-    }
-    div.pg-home section ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        min-width: 186px;
-    }
-    div.pg-home section h2 {
-        text-align: center;
-        font-size: 3em;
-    }
+	
+	
+	
 }
 	
 
