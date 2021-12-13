@@ -33,8 +33,7 @@ figcaption{
 	width: 100%;
 	/*max-width: 858px;*/
 	justify-content: space-evenly;
-	
-	
+		
 	
 }
 
@@ -45,7 +44,6 @@ h2{
 	margin-bottom: 40px;
 	text-align: center;
 	
-	
 }
 ul{
 	display: flex;
@@ -55,24 +53,15 @@ ul{
     width: 100vw;
     max-width: 858px;
 	align-items: flex-end;
-	
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 li{
 	width: fit-content;	
 	display:flex;
 	text-align: center;
-		
 	flex-direction: column;
 	justify-content: space-evenly;
-	
-
-	
-	
-	
-	
-	
 
 }
 
@@ -81,7 +70,10 @@ li>figure>img{
 	max-width: 186px;
 	margin:  auto;
 	cursor: pointer;
-	
+
+}
+li>figure>img:hover{
+	border: solid 2px black;
 	
 
 }
@@ -99,18 +91,19 @@ li>figure{
 h3{
 	margin-top: 20px;
 	margin-bottom: 20px;
-	
-	
+		
 }
 
 .addPerfil>figure>img{
 	width: 100%;
 	max-width: 90px;
-	margin-bottom: 35px;		
+	margin-bottom: 35px;	
+	border-radius: 100%;
 	
+}
+.addPerfil>figure>img:hover{
+	border-radius: 100%;
 	
-	
-		
 }
 .addPerfil{
 	width: 100%;
@@ -118,9 +111,6 @@ h3{
 	height: 100%;
 	max-height: 186px;
 	text-align: center;
-	
-	
-	
 
 }
 /*.addPerfil>figure>img:hover{
@@ -134,8 +124,7 @@ footer{
 	margin: 0;
 	text-align: center;
 	margin-top: 50px;
-	
-	
+		
 }
 
 button{
